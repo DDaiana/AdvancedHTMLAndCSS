@@ -20,6 +20,10 @@ td, th{
     padding: 8px;
 }
 
+td::first-letter, th::first-letter{
+    text-transform: uppercase;
+}
+
 tr:nth-child(even){
     background-color: #dddddd;
 
