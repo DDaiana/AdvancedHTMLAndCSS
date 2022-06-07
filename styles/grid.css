@@ -1,0 +1,15 @@
+header{grid-area: head}
+.table{grid-area: table}
+.image{grid-area: image}
+footer{grid-area: footer}
+
+body{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas: "head head"
+                        "table table"
+                        "image image"
+                        "footer footer";
+                        
+}

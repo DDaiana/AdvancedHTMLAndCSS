@@ -1,6 +1,7 @@
 header{
 
     background-color: aquamarine;
+    font-family: cursive;
 }
 
 footer{
@@ -14,14 +15,19 @@ footer{
 table{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 60%;
+}
+
+#table-headings>th {
+    text-align: center;
 }
 
 td, th{
     border: solid gray 1px;
     text-align: left;
-    padding: 8px;
+    padding: 8px;   
 }
+
 
 td::first-letter, th::first-letter{
     text-transform: uppercase;
@@ -33,6 +39,7 @@ tr:nth-child(even){
 }
 header p{
     color: black;
+    font-size: 50px;
 }
 footer > p{
     color: blue;
