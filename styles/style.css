@@ -3,6 +3,11 @@ header{
     background-color: aquamarine;
 }
 
+footer{
+
+    background-color: aquamarine;
+}
+
 table{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -20,7 +25,7 @@ tr:nth-child(even){
 
 }
 header p{
-    color: plum;
+    color: black;
 }
 footer > p{
     color: blue;
@@ -33,6 +38,20 @@ footer ~ p{
     color: green;
 }
 
+footer > p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }
+
+tr:hover{
+    background-color: pink;
+}
+
+
+img{
+    height: 15%;
+    width: 15%;
+}
 /* # is for id
 
 The basic rule that you need to keep in mind while using classes and ids in CSS is that, id is used for single elements that appear on the page for only once (e.g. header, footer, menu), whereas class is used for single or multiple elements that appear on the page for once or more than once (e.g. paragraphs, links, buttons, input boxes). 
