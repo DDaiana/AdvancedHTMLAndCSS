@@ -1,15 +1,31 @@
-header{grid-area: head}
-.table{grid-area: table}
-.image{grid-area: image}
-footer{grid-area: footer}
+header{grid-area: head;
+    grid-row: 1;
+    grid-column: 1/6;}
+
+.table{grid-area: table;
+    grid-row: 2/6;
+    grid-column: 3/6;}
+
+.image{
+    grid-area: image;
+    grid-row: 5;
+    grid-column: 5/6; 
+    padding-top: 70px ; 
+}
+
+footer{grid-area: footer;
+    grid-row: 6/6;
+    grid-column: 1/6;}
 
 body{
     display: grid;
     width: 100%;
     height: 100vh;
+    row-gap: 20px;
     grid-template-areas: "head head"
                         "table table"
-                        "image image"
+                       "image image"
                         "footer footer";
                         
 }
+
